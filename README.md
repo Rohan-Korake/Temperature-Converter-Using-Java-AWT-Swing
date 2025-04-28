@@ -1,4 +1,4 @@
-## ☕ Simple Temperature Converter application built using Java AWT and Swing
+## ☕ Simple Temperature Converter application built using Java AWT,Swing
 
 - It allows users to input a temperature value and select the input/output units to perform conversions between different temperature scales.
 - User-friendly input-output interface.
