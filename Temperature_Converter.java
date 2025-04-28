@@ -21,10 +21,10 @@ public class Temperature_Converter
         inputUnitChoice.add("Fahrenheit");
         inputUnitChoice.add("Kelvin");
         inputUnitChoice.add("Rankine");
-        inputUnitChoice.add("Reaumur");
+        inputUnitChoice.add("Réaumur");
         inputUnitChoice.add("Delisle");
         inputUnitChoice.add("Newton");
-        inputUnitChoice.add("Romer");
+        inputUnitChoice.add("Rømer");
         //Input component section end
         
         //Output component section start
@@ -36,10 +36,10 @@ public class Temperature_Converter
         outputUnitChoice.add("Fahrenheit");
         outputUnitChoice.add("Kelvin");
         outputUnitChoice.add("Rankine");
-        outputUnitChoice.add("Reaumur");
+        outputUnitChoice.add("Réaumur");
         outputUnitChoice.add("Delisle");
         outputUnitChoice.add("Newton");
-        outputUnitChoice.add("Romer");
+        outputUnitChoice.add("Rømer");
         //Output component section start
 
         //Button section start
@@ -151,7 +151,7 @@ public class Temperature_Converter
                             outputField.setText(String.valueOf((inputval + 273.15)* 9.0 / 5.0));
                                 break;
 
-                            case "Reaumur":
+                            case "Réaumur":
                             outputField.setText(String.valueOf(inputval* 4.0 / 5.0));
                                 break;
 
@@ -163,7 +163,7 @@ public class Temperature_Converter
                             outputField.setText(String.valueOf((inputval * 33.0 / 100.0)));
                                 break;
 
-                            case "Romer":
+                            case "Rømer":
                             outputField.setText(String.valueOf((inputval * 21.0 / 40.0) + 7.5));
                                 break;
 
@@ -195,7 +195,7 @@ public class Temperature_Converter
                             outputField.setText(String.valueOf(inputval + 459.67));
                                 break;
 
-                            case "Reaumur":
+                            case "Réaumur":
                             outputField.setText(String.valueOf(((inputval - 32.0) * 4.0 / 9.0)));
                                 break;
 
@@ -207,7 +207,7 @@ public class Temperature_Converter
                             outputField.setText(String.valueOf(((inputval - 32.0) * 11.0 / 60.0)));
                                 break;
 
-                            case "Romer":
+                            case "Rømer":
                             outputField.setText(String.valueOf(((inputval - 32.0) * 7.0 / 24.0 + 7.5)));
                                 break;
 
@@ -239,7 +239,7 @@ public class Temperature_Converter
                             outputField.setText(String.valueOf(inputval * 9.0/5.0));
                                 break;
 
-                            case "Reaumur":
+                            case "Réaumur":
                             outputField.setText(String.valueOf((inputval - 273.15) * 4.0/5.0));
                                 break;
 
@@ -251,7 +251,7 @@ public class Temperature_Converter
                             outputField.setText(String.valueOf((inputval - 273.15) * 33.0/100.0));
                                 break;
 
-                            case "Romer":
+                            case "Rømer":
                             outputField.setText(String.valueOf((inputval - 273.15) * 21.0/40.0 + 7.5));
                                 break;
 
@@ -283,7 +283,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf(inputval));
                             break;
 
-                        case "Reaumur":
+                        case "Réaumur":
                         outputField.setText(String.valueOf(((inputval - 491.67) * 4.0/9.0)));
                             break;
 
@@ -295,7 +295,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf((inputval - 491.67) * 11.0/60.0));
                             break;
 
-                        case "Romer":
+                        case "Rømer":
                         outputField.setText(String.valueOf(((inputval - 491.67) * 7.0/24.0 + 7.5)));
                             break;
 
@@ -307,8 +307,8 @@ public class Temperature_Converter
                     break;
                 //Rankine case section end
 
-                //Reaumur case section start
-                case "Reaumur":
+                //Réaumur case section start
+                case "Réaumur":
                     switch (choice_out) 
                     {
                         case "Celsius":
@@ -327,7 +327,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf((inputval * 9.0 / 4.0) + 491.67));
                             break;
 
-                        case "Reaumur":
+                        case "Réaumur":
                         outputField.setText(String.valueOf(inputval));
                             break;
 
@@ -339,7 +339,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf(inputval * 33.0 / 80.0));
                             break;
 
-                        case "Romer":
+                        case "Rømer":
                         outputField.setText(String.valueOf(((inputval * 21.0 / 32.0) + 7.5)));
                             break;
 
@@ -349,7 +349,7 @@ public class Temperature_Converter
                     }
                     errorField.setText("Conversion successful!");
                     break;
-                //Reaumur case section end
+                //Réaumur case section end
 
                 //Delisle case section start
                 case "Delisle":
@@ -371,7 +371,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf((671.67 - (inputval * 6.0 / 5.0))));
                             break;
 
-                        case "Reaumur":
+                        case "Réaumur":
                         outputField.setText(String.valueOf((80 - (inputval * 8.0 / 15.0))));
                             break;
 
@@ -383,7 +383,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf((33 - (inputval * 11.0 / 50.0))));
                             break;
 
-                        case "Romer":
+                        case "Rømer":
                         outputField.setText(String.valueOf(( 60 - (inputval * 7.0 / 20.0))));
                             break;
 
@@ -415,7 +415,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf(((inputval * 60.0 / 11.0) + 491.67)));
                             break;
 
-                        case "Reaumur":
+                        case "Réaumur":
                         outputField.setText(String.valueOf((inputval * 80.0 / 33.0)));
                             break;
 
@@ -427,7 +427,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf(inputval));
                             break;
 
-                        case "Romer":
+                        case "Rømer":
                         outputField.setText(String.valueOf((inputval * 35.0 / 22.0)));
                             break;
 
@@ -439,8 +439,8 @@ public class Temperature_Converter
                     break;
                 //Newton case section end
 
-                //Romer case section start
-                case "Romer":
+                //Rømer case section start
+                case "Rømer":
                     switch (choice_out) 
                     {
                         case "Celsius":
@@ -459,7 +459,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf(((inputval - 7.5) * 24.0 / 7.0 + 491.67)));
                             break;
 
-                        case "Reaumur":
+                        case "Réaumur":
                         outputField.setText(String.valueOf(((inputval - 7.5) * 32.0 / 21.0)));
                             break;
 
@@ -471,7 +471,7 @@ public class Temperature_Converter
                         outputField.setText(String.valueOf(((inputval - 7.5) * 22.0 / 35.0)));
                             break;
 
-                        case "Romer":
+                        case "Rømer":
                         outputField.setText(String.valueOf(inputval));
                             break;
 
@@ -481,7 +481,7 @@ public class Temperature_Converter
                     }
                     errorField.setText("Conversion successful!");
                     break;
-                //Romer case section end               
+                //Rømer case section end               
 
                     default:
                     errorField.setText("Error : Invalid input!!");
